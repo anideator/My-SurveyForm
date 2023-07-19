@@ -1,0 +1,78 @@
+* {
+      box-sizing: border-box;
+}
+
+body {
+      padding: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: poppins;
+}
+
+form {
+      width: 550px;
+      margin: auto;
+      margin-bottom: 3em;
+      border: 2px solid rgba(27, 27, 50, 0.3);
+      color: rgba(27, 27, 50, 0.8);
+      padding: 2rem;
+      border-radius: 0.25rem;
+      background-color: rgba(27, 27, 50, 0.1);
+}
+
+.seperator {
+      border-top: 2px solid rgba(27, 27, 50, 0.2);
+      padding: 15px 0;
+}
+
+input,textarea {
+      width: 100%;
+      padding: 1px 5px;
+      margin: 10px 0;
+      background-color: rgba(27, 27, 50, 0.1);
+      border: 2px solid rgba(27, 27, 50, 0.5);
+      border-radius: 0.25em;
+}
+
+select, input {
+      height: 2.5em;
+      vertical-align: middle;
+}
+
+input[type="radio"], input[type="checkbox"]{
+      width: unset;
+      margin: 0 0.5em 0 0;
+      min-width: 1.25em;
+      min-height: 1.25em;
+}
+
+label {
+      display: block;
+      margin: 0.5rem 0;
+}
+
+h1, p {
+      text-align: center;
+}
+
+select {
+      background-color: rgba(27, 27, 50, 0.1);
+      border: 2px solid rgba(27, 27, 50, 0.5);
+      border-radius: 0.25em;
+      margin-top: 3px;
+}
+
+input[type="submit"] {
+      max-width: 60%;
+      margin: 0 auto;
+      display: block;
+}
+
+input[type="submit"]:hover {
+      background-color: rgba(27, 27, 50, 0.6);
+      color: #f6f7f8;
+}
+
+span {
+      font-size: 0.7em;
+}
